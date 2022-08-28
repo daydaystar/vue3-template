@@ -17,6 +17,9 @@ import HelloWorld from './components/HelloWorld.vue'
 </template>
 
 <style scoped>
+::placeholder {
+  color: gray;
+}
 .logo {
   height: 6em;
   padding: 1.5em;
