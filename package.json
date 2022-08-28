@@ -18,6 +18,7 @@
     "eslint": "^8.23.0",
     "eslint-config-prettier": "^8.5.0",
     "eslint-plugin-vue": "^9.4.0",
+    "lint-staged": "^13.0.3",
     "prettier": "2.7.1",
     "typescript": "^4.6.4",
     "vite": "^3.0.7",
@@ -25,5 +26,9 @@
   },
   "engines": {
     "node": ">= 16"
+  },
+  "lint-staged": {
+    "*.{js,ts}": "eslint --fix",
+    "*.{js,ts,css,md}": "prettier --write"
   }
 }
