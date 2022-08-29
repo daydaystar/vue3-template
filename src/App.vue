@@ -16,7 +16,7 @@ import HelloWorld from './components/HelloWorld.vue'
   <HelloWorld msg="Vite + Vue" />
 </template>
 
-<style scoped>
+<style scoped lang="scss">
 ::placeholder {
   color: gray;
 }
